@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #212f55   ;
+    --secondary-color: #f9c300 ;
+    --accent1-color: #3aadd1;
+    --accent2-color: #d61500;
+    --base1-color: #ffffff;
+    --base2-color: #e3e2e2;
+    --base3-color: #2a2725;
+    ;
+  
+    --heading-font: "Josefin Sans";
+    --paragraph-font: Raleway, Helvetica, sans-serif;
+  
+    --headline-color-on-white: #212f55;
+    --headline-color-on-color: white;
+    --paragraph-color-on-white: #2a2725;
+    --paragraph-color-on-color: white;
+    --paragraph-background-color: #212f55  ;
+    --nav-link-color: #212f55;
+    --nav-background-color: #e3e2e2;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #3aadd1;
+  }
+
+/* #logo_link img {
+    float: left;
+    width: 160px;
+    height: 100px;
+} */
+nav {
+    background-color: var(--nav-background-color);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  nav  {
+    list-style-type: none;
+    display: flex;
+  }
+  nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+  }
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
