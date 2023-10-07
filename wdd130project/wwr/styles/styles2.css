@@ -113,6 +113,11 @@ footer p a:hover {
 #hero-img {
   width: 100%;
 }
+#logo_link img {
+  float: left;
+  width: 80px;
+}
+
 
 
 
