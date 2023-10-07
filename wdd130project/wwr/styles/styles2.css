@@ -1,0 +1,148 @@
+
+
+
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+nav a {
+  text-align: center;
+  padding: 1em;
+  min-width: 120px;
+  text-decoration: none;
+  padding: 10px;
+  color: #2a2725;
+}
+nav {
+  background-color: #e3e2e2;
+  color: #2a2725;
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+  list-style-type: none;
+  display: flex;
+}
+#hero-msg h1 {
+  text-align: center;
+}
+#hero-msg h4 {
+  text-align: center;
+}
+.button-box {
+  text-align: center;
+}
+main section {
+  text-align: center;
+}
+#background {
+  height: 725px;
+  background-color: #e3e2e2; 
+}
+body {
+  background-color: #e3e2e2; 
+  color: #2a2725;
+}
+header {
+  background-color: #e3e2e2;
+  color: #2a2725;
+}
+nav a:hover {
+  background-color: #3aadd1;
+  color: #ffffff;
+}
+nav a:link, nav a:visited {
+  color: #212f55;
+}
+.book {
+  background-color: #e3e2e2; 
+  color: #2a2725;
+  text-decoration: none;
+}
+.join {
+  background-color: #e3e2e2; 
+  color: #2a2725;
+  text-decoration: none;
+}
+.book:hover {
+  background-color: #e3e2e2; 
+  color: #2a2725;
+}
+.join:hover {
+  background-color: #e3e2e2; 
+  color: #2a2725;
+}
+.msg {
+  background-color: #e3e2e2; 
+  color: #2a2725;
+}
+footer {
+  background-color: #3aadd1; 
+  color: #2a2725;
+}
+.home-title {
+  color: #2a2725;
+}
+h4 {
+  color: #2a2725;
+}
+h2 {
+  color: #2a2725;
+}
+.msg {
+  color: #2a2725;
+}
+p {
+  color: #2a2725;
+}
+footer a {
+  color: #2a2725;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #2a2725;
+}
+footer p {
+  font-size: 1.2em;
+}  
+footer p a:hover {
+  text-decoration: underline;
+}  
+.icon {
+  width: 80px;
+}
+#hero-img {
+  width: 100%;
+}
+
+
+
+/* :root {
+    --primary-color: #212f55;
+    --secondary-color: #f9c300;
+    --accent1-color: #3aadd1;
+    --accent2-color: #d61500;
+    --base1-color: #ffffff;
+    --base2-color: #e3e2e2;
+    --base3-color: #2a2725;
+    ;
+  
+    --heading-font: "Josefin Sans";
+    --paragraph-font: Raleway, Helvetica, sans-serif;
+  
+    --headline-color-on-white: #212f55;
+    --headline-color-on-color: white;
+    --paragraph-color-on-white: #2a2725;
+    --paragraph-color-on-color: white;
+    --paragraph-background-color: #212f55  ;
+    --nav-link-color: #212f55;
+    --nav-background-color: #e3e2e2;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #3aadd1;
+  }
+
+
+/* logo_link img {
+    float: left;
+    width: 160px;
+    height: 100px;
+}

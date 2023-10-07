@@ -1,4 +1,55 @@
-.main-para {
+img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+}
+body {
+  width: 40%;
+  text-align: center;
+  background-color: #fba6c9;
+  margin: 20px auto;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+h2 {
+  color: white;
+}
+h3 {
+  color: white;
+}
+p {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+main p {
+  width: 80%;
+  margin: 0 auto;
+}
+.list {
+  display: block;
+}
+a {
+  font-size: 1.5em;
+}
+a:hover {
+  background-color: white;
+  color: steelblue;
+}
+nav, footer {
+  text-align: center;
+  color: black;
+  padding: 10px;
+}
+footer p {
+  font-size: 20px;
+  margin: 20px auto;
+}
+
+/* .main-para {
   font-size: 1.5em;
   line-height: 1.5em;
 }
@@ -6,7 +57,9 @@
   background-color: white;
   color: steelblue;
 }
-
+* {
+  border: 2px solid blue;
+}
 body {
     text-align: center;
     color: blue;
@@ -30,4 +83,4 @@ body {
   footer {
     background-color: steelblue;
     color: white;
-  }
+  } */
