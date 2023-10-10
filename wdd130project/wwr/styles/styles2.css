@@ -1,5 +1,5 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 #content {
   max-width: 1600px;
@@ -12,6 +12,7 @@ nav a {
   text-decoration: none;
   padding: 10px;
   color: #2a2725;
+  padding: 35px;
 }
 nav {
   background-color: #e3e2e2;
@@ -21,6 +22,9 @@ nav {
   font-size: 1.2em;
   list-style-type: none;
   display: flex;
+}
+#hero-img {
+  width: 100%;
 }
 #hero-msg h1 {
   text-align: center;
@@ -41,6 +45,13 @@ main section {
 body {
   background-color: #e3e2e2; 
   color: #2a2725;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+main section img {
+  box-sizing: border-box;
 }
 header {
   background-color: #e3e2e2;
@@ -53,15 +64,14 @@ nav a:hover {
 nav a:link, nav a:visited {
   color: #212f55;
 }
-.book {
+.book, .join {
   background-color: #e3e2e2; 
   color: #2a2725;
   text-decoration: none;
-}
-.join {
-  background-color: #e3e2e2; 
-  color: #2a2725;
-  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .book:hover {
   background-color: #e3e2e2; 
@@ -74,25 +84,37 @@ nav a:link, nav a:visited {
 .msg {
   background-color: #e3e2e2; 
   color: #2a2725;
+  font-size: 1.5em;
+  padding: 35px;
 }
-footer {
-  background-color: #3aadd1; 
-  color: #2a2725;
+.msg p {
+  font-size: .8em;
+  padding-bottom: 15px;
 }
 .home-title {
   color: #2a2725;
+  font-family: 'Josefin Sans', 'Raleway', 'Arial', sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
+}
+h2 {
+  color: #2a2725;
+  font-family: 'Josefin Sans', 'Raleway', 'Arial', sans-serif;
+  margin: 0;
 }
 h4 {
   color: #2a2725;
 }
-h2 {
-  color: #2a2725;
-}
-.msg {
-  color: #2a2725;
-}
 p {
   color: #2a2725;
+  font-family: 'Raleway', 'Arial', sans-serif;
+}
+footer {
+  background-color: #3aadd1; 
+  color: #2a2725;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 footer a {
   color: #2a2725;
@@ -107,18 +129,33 @@ footer p {
 footer p a:hover {
   text-decoration: underline;
 }  
+footer .social img {
+  padding-top: 15px;
+}
 .icon {
   width: 80px;
-}
-#hero-img {
-  width: 100%;
+  padding-top: 10px;
 }
 #logo_link img {
   float: left;
   width: 80px;
+  padding-top: 5px;
 }
-
-
+#logo_link {
+  padding-top: 5px;
+}
+.rivers-card {
+  margin: 200px 0;
+}
+.camping-card {
+  margin: 200px 0;
+}
+.rapids-card {
+  margin: 200px 0;
+}
+.card-img {
+  border: 10px solid #2a2725;
+}
 
 
 /* :root {
