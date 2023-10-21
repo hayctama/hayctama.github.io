@@ -56,7 +56,7 @@ main section {
 }
 #background {
   height: 725px;
-  background-color: #e3e2e2; 
+  background-color: #212f55; 
   grid-column: 1/11;
   grid-row: 4/9;
 }
@@ -85,7 +85,7 @@ nav a:link, nav a:visited {
   color: #212f55;
 }
 .book, .join {
-  background-color: #e3e2e2; 
+  background-color: #f9c300; 
   color: #2a2725;
   text-decoration: none;
   font-size: 18px;
@@ -104,14 +104,14 @@ nav a:link, nav a:visited {
 .msg {
   background-color: #e3e2e2; 
   color: #2a2725;
-  font-size: 1.5em;
+  font-size: .7em;
   padding: 35px;
   grid-column: 6/10;
   grid-row: 6/7;
   box-shadow: 5px 5px 10px #6f7364;
 }
 .msg p {
-  font-size: .8em;
+  font-size: .7em;
   padding-bottom: 15px;
 }
 .home-title {
@@ -255,6 +255,15 @@ footer .social img {
   footer {
       margin-top: 25px;
   }
+}
+root {
+--primary-color: #212f55;
+--secondary-color: #f9c300;
+--accent1-color: #3aadd1;
+--accent2-color: #d61500;
+--base1-color: #ffffff;
+--base2-color: #e3e2e2;
+--base3-color: #2a2725;
 }
 /* :root {
     --primary-color: #212f55;
