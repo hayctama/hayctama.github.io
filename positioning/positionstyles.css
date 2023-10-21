@@ -158,7 +158,6 @@
 .content6 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  justify-items: center;
   /* This is the parent of the activity 6 boxes. */
 }
 .red6 {
