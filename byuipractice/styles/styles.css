@@ -1,3 +1,29 @@
+body {
+  text-align: center;
+  margin: 0 auto;
+  background-color: gray;
+}
+header{
+  width: 100%;
+}
+#main_img {
+  width: 100%;
+  border: 0px;
+  border-radius: 0%;
+  margin: 0 auto;
+}
+img {
+  border-radius: 50%;
+  border: 5px solid black;
+  width: 200px;
+  margin: 40px;
+}
+
+
+
+
+
+/* president nelson css
 img {
   width: 40%;
   display: block;
@@ -65,7 +91,11 @@ nav, footer {
 footer p {
   font-size: 15px;
   margin: 20px auto;
-}
+} */
+
+
+
+
 
 /* .main-para {
   font-size: 1.5em;
