@@ -256,15 +256,8 @@ footer .social img {
       margin-top: 25px;
   }
 }
-root {
---primary-color: #212f55;
---secondary-color: #f9c300;
---accent1-color: #3aadd1;
---accent2-color: #d61500;
---base1-color: #ffffff;
---base2-color: #e3e2e2;
---base3-color: #2a2725;
-}
+
+
 /* :root {
     --primary-color: #212f55;
     --secondary-color: #f9c300;
