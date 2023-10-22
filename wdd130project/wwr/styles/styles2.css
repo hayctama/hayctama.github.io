@@ -38,7 +38,7 @@ nav {
 #hero-msg {
   grid-column: 2/3;
   grid-row: 1/2;
-  margin-top: 100px;
+  margin-top: 110px;
 }
 #hero-msg h1 {
   text-align: center;
@@ -238,7 +238,7 @@ footer .social img {
   }
   .home-title {
       font-size: 25px;
-      color: black;
+      color: #f9c300;
   }
   .rivers-card, .camping-card, .rapids-card { 
       margin: 50px auto;
