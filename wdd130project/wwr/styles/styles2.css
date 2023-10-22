@@ -119,6 +119,7 @@ nav a:link, nav a:visited {
   font-family: 'Josefin Sans', 'Raleway', 'Arial', sans-serif;
   font-size: 2em;
   margin-top: 10px;
+  z-index: 1;
 }
 h2 {
   color: #2a2725;
