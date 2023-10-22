@@ -43,6 +43,7 @@ nav {
 #hero-msg h1 {
   text-align: center;
   color: #f9c300;
+  z-index: 1;
 }
 #hero-msg h4 {
   text-align: center;
