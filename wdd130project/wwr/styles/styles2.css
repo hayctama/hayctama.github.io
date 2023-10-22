@@ -42,7 +42,7 @@ nav {
 }
 #hero-msg h1 {
   text-align: center;
-  color: #e3e2e2;
+  color: #f9c300;
 }
 #hero-msg h4 {
   text-align: center;
@@ -115,11 +115,14 @@ nav a:link, nav a:visited {
   padding-bottom: 15px;
 }
 .home-title {
-  color: #2a2725;
+  color: #f9c300;
   font-family: 'Josefin Sans', 'Raleway', 'Arial', sans-serif;
   font-size: 2em;
   margin-top: 10px;
   z-index: 1;
+}
+h1{
+  color: #2a2725;
 }
 h2 {
   color: #2a2725;
