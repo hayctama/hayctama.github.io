@@ -17,6 +17,79 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
+#logo_link img {
+    float: left;
+    width: 90%;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.home-title {
+    color: #f9c300;
+    font-family: 'Josefin Sans', 'Raleway', 'Arial', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    z-index: 1;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+  }
+  #hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+  }
+  #hero-img {
+    width: 100%;
+  }
+  #hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 110px;
+  }
+  #hero-msg h1 {
+    text-align: center;
+    color: #f9c300;
+    z-index: 1;
+  }
+  #hero-msg h4 {
+    text-align: center;
+    color: #e3e2e2;
+  }
+  .button-box {
+    text-align: center;
+  }
+.book, .join {
+    background-color: #f9c300; 
+    color: #2a2725;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+  }
+  .book:hover {
+    background-color: #e3e2e2; 
+    color: #2a2725;
+  }
+h1{
+    color: #2a2725;
+}
+h2 {
+    color: #2a2725;
+    font-family: 'Josefin Sans', 'Raleway', 'Arial', sans-serif;
+    margin: 0;
+}
+h4 {
+    color: #2a2725;
+}
 nav a {
     text-align: center;
     padding: 1em;
