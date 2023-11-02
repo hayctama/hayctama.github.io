@@ -152,8 +152,20 @@ h2 {
   font-family: 'Josefin Sans', 'Raleway', 'Arial', sans-serif;
   margin: 0;
 }
+.lighter-background {
+  background-color: #f4f4f4;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 1px;
+}
+.normal-background {
+  background-color: #e3e2e2;
+  text-align: left;
+  padding-top: 25px;
+}
 .body-header {
   margin-left: 20px;
+  padding-top: 20px;
 }
 h4 {
   color: #2a2725;
@@ -167,7 +179,7 @@ p {
   font-family: 'Raleway', 'Arial', sans-serif;
   margin-left: 100px;
   margin-right: 10px;
-  margin-bottom: 50px;
+  padding-bottom: 20px;
 }
 footer {
   background-color: #3aadd1; 
@@ -247,8 +259,35 @@ footer .social img {
   grid-template-columns: repeat(10, 1fr);
 }
 
-
-
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+#background-faq {
+  height: 725px;
+  background-color: #d61500; 
+  grid-column: 1/11;
+  grid-row: 4/9;
+}
+.rafting-yellow {
+  width: 100%;
+  grid-column: 5/10;
+  grid-row: 5/8;
+  box-shadow: -5px 5px 10px #2a2725;
+}
+.msg-faq {
+  background-color: #e3e2e2; 
+  color: #2a2725;
+  font-size: .7em;
+  padding: 35px;
+  grid-column: 2/6;
+  grid-row: 6/7;
+  box-shadow: -5px 5px 10px #2a2725;
+}
+.msg-faq p {
+  font-size: .7em;
+  padding-bottom: 15px;
+}
 
 
 
