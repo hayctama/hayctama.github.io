@@ -114,6 +114,13 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+nav a:hover {
+    background-color: #3aadd1;
+    color: #ffffff;
+  }
+  nav a:link, nav a:visited {
+    color: #212f55;
+  }
 p {
   color: #2a2725;
   font-family: 'Raleway', 'Arial', sans-serif;
