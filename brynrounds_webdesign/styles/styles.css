@@ -1,34 +1,47 @@
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
-#content {
-  max-width: 1600px;
-  margin: 0 auto;
+header {
+  max-height: 70px;
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+  font-size: 16px;
 }
 nav a {
   text-align: center;
-  padding: 1em;
   min-width: 120px;
   text-decoration: none;
-  padding: 10px;
-  color: #2a2725;
-  padding: 35px;
+  color: #353632;
+  padding-top: 40px;
+}
+.logo {
+  max-height: 90%;
+  grid-column: 3/4;
+  padding-bottom: 10px;
+}
+#content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
 }
 nav {
-  background-color: #e3e2e2;
-  color: #2a2725;
+  background-color: #fbf4ec;
+  color: #353632;
   text-align: center;
   list-style-type: none;
   display: flex;
   justify-content: space-around;
 }
+nav a:hover {
+  background-color: #a59b86;
+  color: #fbf4ec;
+}
+nav a:link, nav a:visited {
+  color: #353632;
+}
+
+
 #hero {
   display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  margin-top: -100px; 
+  grid-template-columns: 1fr 3fr 1fr; 
 }
 #hero-box {
   grid-column: 1/4;
@@ -96,19 +109,6 @@ body {
 }
 main section img {
   box-sizing: border-box;
-}
-header {
-  background-color: #e3e2e2;
-  color: #2a2725;
-  display: grid;
-  grid-template-columns: 150px auto;
-}
-nav a:hover {
-  background-color: #3aadd1;
-  color: #ffffff;
-}
-nav a:link, nav a:visited {
-  color: #212f55;
 }
 .book, .join {
   background-color: #f9c300; 
@@ -215,7 +215,7 @@ footer .social img {
   padding-top: 10px;
 }
 #logo_link img {
-  float: left;
+  float: middle;
   width: 90%;
   padding-top: 5px;
   justify-self: center;
