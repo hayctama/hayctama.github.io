@@ -280,13 +280,6 @@ footer .social img {
   z-index: 0;
   margin-top: 30px;
 }
-#aboutwelcome {
-  height: 438px;
-  background-color: #353632; 
-  grid-column: 1/15;
-  grid-row: 1/11;
-  z-index: -1;
-}
 #about {
   height: 438px;
   background-color: #353632; 
@@ -329,11 +322,70 @@ footer .social img {
   font-size: 1em;
   padding-bottom: 10px;
 }
+
+
+
 .resume {
   margin-top: 30px;
 }
 
 
+
+.contactme-grid {
+  display: grid;
+  height: 438px;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  z-index: 0;
+  margin-top: 30px;
+}
+.contactpic {
+  width: 100%;
+  grid-column: 10/14;
+  grid-row: 2/7;
+  /* box-shadow: 5px 5px 10px black; */
+  z-index: -0.5;
+}
+.contact-title {
+  color: #fbf4ec;
+  font-size: .7em;
+  padding: 15px;
+  grid-column: 2/6;
+  grid-row: 2/3;
+  z-index: 1;
+}
+.contact-title2 {
+  color: #fbf4ec;
+  font-size: .7em;
+  padding: 15px;
+  grid-column: 2/6;
+  grid-row: 1/2;
+  z-index: 1;
+}
+.contact-message {
+  background-color: #E1D6C9; 
+  color: #353632;
+  font-size: .8em;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  grid-column: 2/8;
+  grid-row: 2/8;
+  margin: 15px;
+  /* box-shadow: 5px 5px 10px black; */
+}
+.contact-message p {
+  font-size: 1em;
+  padding-bottom: 10px;
+}
+#contact {
+  height: 438px;
+  background-color: #353632; 
+  grid-column: 1/15;
+  grid-row: 1/11;
+  z-index: -1;
+}
 
 
 form {
