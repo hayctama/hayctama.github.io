@@ -392,17 +392,19 @@ footer .social img {
 
 .contactme-grid {
   display: grid;
-  height: 438px;
+  height: 500px;
   grid-template-columns: repeat(14, 1fr);
   grid-template-rows: repeat(10, 1fr);
-  z-index: 0;
+  z-index: -1;
   margin-top: 30px;
 }
-.contactpic {
-  width: 100%;
+.cardw3 {
+  height: 100%;
   grid-column: 10/14;
-  grid-row: 2/7;
-  /* box-shadow: 5px 5px 10px black; */
+  grid-row: 2/5;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
   z-index: -1;
 }
 .contact-title {
@@ -439,11 +441,34 @@ footer .social img {
   padding-bottom: 10px;
 }
 #contact {
-  height: 438px;
+  height: 500px;
   background-color: #353632; 
   grid-column: 1/15;
   grid-row: 1/11;
   z-index: -1;
+}
+
+
+
+/* On mouse-over, add a deeper shadow */
+.cardw3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  text-align: left;
+  padding: 2px 16px;
+  grid-column: 10/13;
+  grid-row: 2/7;
+  background-color: #E1D6C9;
+  border: 1px solid black;
+  border-radius: 1em;
+}
+
+.container img {
+  border-radius: 5px 5px 0 0;
+  margin-top: 10px;
 }
 
 
