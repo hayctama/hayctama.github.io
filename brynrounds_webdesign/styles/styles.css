@@ -408,38 +408,48 @@ footer .social img {
   border-radius: 5px; /* 5px rounded corners */
   z-index: -1;
 }
-.contact-title {
-  color: #fbf4ec;
-  font-size: .7em;
-  padding: 15px;
-  grid-column: 2/6;
-  grid-row: 2/3;
-  z-index: 1;
-}
+
 .contact-title2 {
-  color: #fbf4ec;
+  color: #E1D6C9;
+  background-color: #2A2A28;
   font-size: .7em;
+  text-align: center;
+  margin: auto;
+  margin-left: 0px;
   padding: 15px;
   grid-column: 2/6;
-  grid-row: 1/2;
+  grid-row: 3/4;
   z-index: 1;
 }
 .contact-message {
   background-color: #E1D6C9; 
   color: #353632;
+  border-radius: 20px;
+  border: solid;
+  border-color: #2A2A28;
   font-size: .8em;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 0px;
   grid-column: 2/8;
-  grid-row: 2/8;
+  grid-row: 2/9;
   margin: 15px;
+  height: 350px;
   /* box-shadow: 5px 5px 10px black; */
 }
 .contact-message p {
   font-size: 1em;
   padding-bottom: 10px;
+  padding-top: 0px;
+}
+.icon-phone {
+  width: 30px;
+  padding-top: 110px;
+}
+.icon-house {
+  width: 30px;
+  padding-top: 10px;
 }
 #contact {
   height: 500px;
@@ -447,6 +457,13 @@ footer .social img {
   grid-column: 1/15;
   grid-row: 1/11;
   z-index: -1;
+}
+.main-contact-title {
+  padding-top: 20px;
+  padding-left: 40px;
+  margin: auto;
+  text-align: left;
+  font-size: 2em;
 }
 
 
@@ -461,7 +478,7 @@ footer .social img {
   text-align: left;
   padding: 2px 16px;
   grid-column: 10/13;
-  grid-row: 2/7;
+  grid-row: 2/8;
   background-color: #E1D6C9;
   border: 1px solid black;
   border-radius: 1em;
